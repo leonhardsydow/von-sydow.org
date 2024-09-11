@@ -7,8 +7,8 @@
 		<description>Homepage der Familie von Sydow</description>
 		<language>en-US</language>
 		<copyright>(c) 2024, Leonhard von Sydow</copyright>	
-		<pubDate>Wed, 11 Sep 2024 08:28:58 +0200</pubDate>
-		<lastBuildDate>Wed, 11 Sep 2024 08:28:58 +0200</lastBuildDate>
+		<pubDate>Wed, 11 Sep 2024 09:23:55 +0200</pubDate>
+		<lastBuildDate>Wed, 11 Sep 2024 09:23:55 +0200</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="http://localhost:4000/rss.xml" rel="self" type="application/rss+xml" />
