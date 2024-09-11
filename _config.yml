@@ -8,22 +8,22 @@ remote_theme: dieghernan/chulapa
 # Overall options for your site, would affect your site SEO
 # Default values are explained
 locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
-title                   : Chulapa 101    #default["repository_name"]
+title                   : Von Sydow    #default["repository_name"]
 title_separator         :     #default [" | "]
-subtitle                : Chulapa Jekyll Theme starter pack    #default [your-repository-tagline]  
-description             : Chulapa Jekyll Theme starter pack #default [your-repository-tagline]
+subtitle                : Homepage der Familie von Sydow     #default [your-repository-tagline]  
+description             : Homepage der Familie von Sydow #default [your-repository-tagline]
 url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 words_per_minute        :     #default[200]
-timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone                :     Europe/Berlin # ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # SEO
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
-  name                  :  Your Name   # Name Surname Company
+  name                  :  Leonhard von Sydow   # Name Surname Company
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
-  location              :  "Madrid, Spain"   # New York, USA 
+  location              :  "Munich, Germany"   # New York, USA 
 #  links:                
 #    - url:  #A link or email: https://twitter.com/jack, mail@example.com
 #      icon: # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
@@ -38,18 +38,6 @@ fa_v4_support: #Bool Add FontAwesome 4 support
 # analytics provided for backwards compatibility
 gtag_id                 :  
 analytics_id            :  
-
-# Search providers
-# Available free search engines:
-# - lunr https://lunrjs.com/ 
-# - algolia v4 https://www.algolia.com/ - needs further configuration
-# - google custom search engine https://cse.google.es/ 
-search:
-  provider              : lunr #Select a provider for enable search: lunr, algolia, google
-  label                 :  #default ["Search"] Text on navbar when search is enabled 
-  landing_page          :  #default ["/search"] Link on navbar 
-  lunr_maxwords         :  #default [30] lunr only - May slow down your site build
-  algolia_logo          :  true #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false.  
 
 google_cse_id: #Your cse id
 # This site uses jekyll-algolia plugin https://community.algolia.com/jekyll-algolia/
@@ -93,43 +81,18 @@ navbar:
   style     :  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   :  Home # Title in navbar
+    title   :  Von-Sydow.org # Title in navbar
     url     :  # default["url/baseurl"]
     img     :  # An small image, try 30x30px
   nav:
-  - title   : Blog # Label
-    url     : /blog/ # url	
-  - title   : Cheatsheets
-    url     : /cheatsheets
-  - title   : Extras
-    child   :
-      - title : Tags
-        url   : /tags
-      - title : Categories
-        url   : /categories
-      - title : Archive
-        url   : /archive
-      - title : Current skin
-        url   : /current-skin
-  - title   : Docs
-    url     : https://dieghernan.github.io/chulapa/docs/01-install
-  - title   : Use this template
-    url     : https://github.com/dieghernan/chulapa-101/generate
-#  - title   : # Label submenu
-#    child:		
-#    - title: # Child label		
-#      url  : # child url	
-#    - title: # Child label		
-#      url  : # child url	
+  - title   : About # Label
+    url     : /about # url	
 #Social links to be placed on your site footer
 footer:
   links:
     - label : Repo on Github # Label
       icon  : fab fa-github # Fontawesome 5 icon
-      url   : https://github.com/dieghernan/chulapa-101 # A link or email: https://twitter.com/jack, mail@example.com
-    - label: "RSS"
-      icon: "fa fa-rss"
-      url:  "./atom.xml"
+      url   : https://github.com/https://github.com/leonhardsydow/von-sydow.org # A link or email: https://twitter.com/jack, mail@example.com
   copyright: # default is © <year> <name> 
   
 # C. Theme Settings
@@ -143,7 +106,7 @@ chulapa-skin:
   skin         :  # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
-    primary     : "#ffbe98" #default ["#007bff"] - Bootstrap blue
+    primary     : "#3A4C3C" #default ["#007bff"] - Bootstrap blue
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" >
+	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
+	<link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" />
+	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
+	<updated>2024-09-11T08:28:58+02:00</updated>
+	<id>http://localhost:4000/atom.xml</id>
+	<title>Von Sydow | Homepage der Familie von Sydow</title>
+	<subtitle>Homepage der Familie von Sydow</subtitle>
+	<author>
+		<name>Leonhard von Sydow</name>
+					
+	</author>
+	<rights>(c) 2024, Leonhard von Sydow</rights>
+	
+	<logo>https://github.com/leonhardsydow.png</logo></feed>

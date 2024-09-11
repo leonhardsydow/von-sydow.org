@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Von Sydow | Homepage der Familie von Sydow</title>
+		<generator>(c) Chulapa Jekyll Theme RSS generator</generator>
+		<link>http://localhost:4000/</link>
+		<description>Homepage der Familie von Sydow</description>
+		<language>en-US</language>
+		<copyright>(c) 2024, Leonhard von Sydow</copyright>	
+		<pubDate>Wed, 11 Sep 2024 08:28:58 +0200</pubDate>
+		<lastBuildDate>Wed, 11 Sep 2024 08:28:58 +0200</lastBuildDate>
+		<category>blog</category>
+		<ttl>60</ttl>
+		<atom:link href="http://localhost:4000/rss.xml" rel="self" type="application/rss+xml" />
+		<image>
+			<title>Von Sydow | Homepage der Familie von Sydow</title>
+			<url>https://github.com/leonhardsydow.png</url>
+			<link>http://localhost:4000/</link>
+			<description>Homepage der Familie von Sydow</description>
+		</image></channel>
+</rss>
