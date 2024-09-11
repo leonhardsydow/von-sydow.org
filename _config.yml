@@ -92,7 +92,7 @@ footer:
   links:
     - label : Repo on Github # Label
       icon  : fab fa-github # Fontawesome 5 icon
-      url   : https://github.com/https://github.com/leonhardsydow/von-sydow.org # A link or email: https://twitter.com/jack, mail@example.com
+      url   : https://github.com/leonhardsydow/von-sydow.org # A link or email: https://twitter.com/jack, mail@example.com
   copyright: # default is © <year> <name> 
   
 # C. Theme Settings
